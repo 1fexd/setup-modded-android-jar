@@ -1,0 +1,11 @@
+name: 'Setup Android SDK Tools (Modded android.jar)'
+author: 'Android-Actions & 1fexd'
+description: 'Setup the Android SDK Tools and add them to the path with modded android.jar'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+
+branding:
+  icon: 'list'
+  color: 'green'
