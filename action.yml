@@ -1,11 +1,11 @@
-name: 'Setup Android SDK Tools (Modded android.jar)'
-author: 'Android-Actions & 1fexd'
-description: 'Setup the Android SDK Tools and add them to the path with modded android.jar'
+name: "Setup Android modded android.jar"
+author: "1fexd & Reginer"
+description: "Replace android.jar with Reginer's modded version"
 
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
+  using: "node16"
+  main: "dist/index.js"
 
 branding:
-  icon: 'list'
-  color: 'green'
+  icon: "list"
+  color: "green"
