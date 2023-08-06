@@ -1,8 +1,6 @@
 # setup-modded-android-jar
 
-A Github acito
-
-Replaces android.jar with [Reginer's modded version](https://github.com/Reginer/aosp-android-jar) (via [aosp-android-jar-mirror](https://github.com/1fexd/aosp-android-jar-mirror)). Android SDK must be set up by another action (or come preinstalled like on Github's action runners).
+Github action which replaces android.jar with [Reginer's modded version](https://github.com/Reginer/aosp-android-jar) (via [aosp-android-jar-mirror](https://github.com/1fexd/aosp-android-jar-mirror)). Android SDK must be set up by another action (or come preinstalled like on Github's action runners).
 
 Currently supported SDKs: `28`, `29`, `30`, `31`, `32`, `33`.
 
