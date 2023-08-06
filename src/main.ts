@@ -7,11 +7,13 @@ import { createHash } from "crypto";
 
 const ANDROID_SDK_VERSION = process.env["ANDROID_SDK_VERSION"] || "33";
 
-const MODDED_ANDROID_JAR_URL = `https://raw.githubusercontent.com/Reginer/aosp-android-jar/main/android-${ANDROID_SDK_VERSION}/android.jar`;
+const MODDED_ANDROID_JAR_URL = `https://raw.githubusercontent.com/1fexd/aosp-android-jar-mirror/master/android-${ANDROID_SDK_VERSION}.jar`;
+
 const MODDED_ANDROID_JAR_SHA256: { [key: string]: string } = {
   "28": "7eba0f3c6815e83f6d364431a0c868584632e8cab8386a0b7287a08da0bdf383",
   "29": "9dec95a1ac122e71bec7cf09037579fc7f30e924bf24f3582ec46918b0c08476",
   "30": "6529a1f1eb399a30065600609d599790a97c9e1bfa016edae22fb8701bebca05",
+  "31": "301f606a8447a4b4021b7a65d7ad14414cafa490d846ba9d74f55ac3a705911a",
   "32": "4ae31e331ffb4ef117ff358583f0328f92e35882e7c2c67e59178a92a80a1b3f",
   "33": "46c79d276c46cb9b32e6567dbe9a9f70c8e236eac0a3e1d8bcf3ff25c16a3805",
 };
